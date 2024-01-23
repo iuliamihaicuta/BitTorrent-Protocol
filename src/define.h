@@ -1,0 +1,18 @@
+#define TRACKER_RANK 0
+#define MAX_FILES 10
+#define MAX_FILENAME 15
+#define HASH_SIZE 32
+#define MAX_CHUNKS 100
+
+#define INITIALIZE_TAG 0
+#define TYPE_OF_MESSAGE_TAG 1
+#define REQUEST_FOR_TRACKER_TAG 2
+#define SEND_SWARM_INFO 3
+#define REQUEST_FOR_CLIENT_TAG 4
+#define UPDATE_TRACKER_TAG 5
+#define ACK_TAG 6
+#define ENDED_ALL_DOWNLOADS_TAG 7
+#define STOP_EXECUTION_TAG 8
+#define START_EXECUTION_TAG 9
+
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
